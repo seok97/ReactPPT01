@@ -8,7 +8,17 @@ class Main extends Component {
   render() {
     return (
       <div id="rootDiv">
-        <Header />
+        <header>
+          <div className="header">
+            <div className="header_wrapper">
+              <ul>
+                <li>Home</li>
+                <li>Tools</li>
+                <li>Youtubers</li>
+              </ul>
+            </div>
+          </div>
+        </header>
         <section className="body">
           <Home />
         </section>

@@ -4,3 +4,35 @@ body {
   margin: 0;
   height: 100%;
 }
+
+header {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+}
+
+header::after {
+  border: solid 1px black;
+}
+
+header .header {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+header .header .header_wrapper {
+  width: 100%;
+}
+
+.header .header_wrapper ul {
+  display: flex;
+  list-style: none;
+  padding: 0 50px;
+  justify-content: center;
+}
+
+.header .header_wrapper ul li {
+  float: left;
+  margin-left: 20px;
+}
