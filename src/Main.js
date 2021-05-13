@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
 import "./Main.css"
 
 import Home from "./pages/Home"
@@ -8,22 +9,34 @@ import YoutuberList from "./pages/YoutuberList"
 class Main extends Component {
   render() {
     return (
-      <div id="rootDiv">
-        <header>
-          <div className="header">
-            <div className="header_wrapper">
-              <ul>
-                <li>Home</li>
-                <li>Tools</li>
-                <li>Youtubers</li>
-              </ul>
+      <Router>
+        <div id="rootDiv">
+          <header>
+            <div className="header">
+              <div className="header_wrapper">
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/Tools">Tools</Link>
+                  </li>
+                  <li>
+                    <Link to="/Youtubers">Youtubers</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </header>
-        <section className="body">
-          <Home />
-        </section>
-      </div>
+          </header>
+          <section className="body">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/Tools" component={ToolsList} />
+              <Route exact path="/Youtubers" component={YoutuberList} />
+            </Switch>
+          </section>
+        </div>
+      </Router>
     )
   }
 }

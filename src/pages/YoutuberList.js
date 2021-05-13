@@ -1,6 +1,6 @@
 import React from "react"
 
-const outuberList = () => {
+const YoutuberList = () => {
   return (
     <section className="Home">
       <div className="Homebody">
