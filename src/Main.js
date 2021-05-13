@@ -1,8 +1,9 @@
 import React, { Component } from "react"
 import "./Main.css"
 
-import Header from "./components/Header"
 import Home from "./pages/Home"
+import ToolsList from "./pages/ToolsList"
+import YoutuberList from "./pages/YoutuberList"
 
 class Main extends Component {
   render() {
