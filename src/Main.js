@@ -14,14 +14,14 @@ class Main extends Component {
           <header>
             <div className="header">
               <div className="header_wrapper">
-                <ul>
-                  <li>
+                <ul className="header_ul">
+                  <li className="header_ul_li">
                     <Link to="/">Home</Link>
                   </li>
-                  <li>
+                  <li className="header_ul_li">
                     <Link to="/Tools">Tools</Link>
                   </li>
-                  <li>
+                  <li className="header_ul_li">
                     <Link to="/Youtubers">Youtubers</Link>
                   </li>
                 </ul>
