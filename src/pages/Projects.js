@@ -1,13 +1,13 @@
 import React from "react"
 
-const ToolsList = () => {
+const Projects = () => {
   return (
     <section className="Home">
       <div className="Homebody">
-        <h1>this is ToolsList</h1>
+        <h1>this is Projects</h1>
       </div>
     </section>
   )
 }
 
-export default ToolsList
+export default Projects
