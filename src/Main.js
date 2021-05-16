@@ -3,12 +3,11 @@ import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
 import "./Main.css"
 
 // pages
-import Home from "./pages/Home"
+import IntroBG from "./pages/IntroBG"
 import Skils from "./pages/Skils"
 import Projects from "./pages/Projects"
 
 // components
-import Homeimage from "./components/Homeimage"
 
 // images
 import rogoimg from "./images/swh_rogo.png"
@@ -40,10 +39,10 @@ class Main extends Component {
               </div>
             </div>
           </header>
+
           <section className="body">
-            <Homeimage />
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={IntroBG} />
               <Route exact path="/Skils" component={Skils} />
               <Route exact path="/Projects" component={Projects} />
             </Switch>
