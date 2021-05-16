@@ -49,6 +49,11 @@ class Main extends Component {
           </section>
           <footer>
             <h1>this is footer</h1>
+            <h3>create by SeokWooHyeon</h3>
+            <span>
+              {" "}
+              <a href="https://github.com/seok97/ReactPPT01">github</a>
+            </span>
           </footer>
         </div>
       </Router>
