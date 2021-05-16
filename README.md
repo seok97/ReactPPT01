@@ -1,3 +1,3 @@
 # ReactPPT01
 
-![IntroText](./images/tempsnip.png)
+![IntroText](./src/images/tempsnip.png)
