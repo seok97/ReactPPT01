@@ -19,18 +19,39 @@
   text-transform: uppercase;
 }
 
+.iiw-f1,
+.iiw-f3 {
+  animation-delay: 0s;
+  animation-duration: 1.5s;
+  animation-name: introtext;
+}
+
+@keyframes introtext {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .iiw-f1 {
   font-size: 2vh;
   text-align: left;
   padding-left: 30vw;
 }
+
 .iiw-f2 {
   font-size: 6vh;
   font-weight: bold;
   -webkit-text-fill-color: #a1bbe6;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fcf6f5;
+  animation-delay: 0s;
+  animation-name: introtext;
+  animation-duration: 4s;
 }
+
 .iiw-f2 label {
   -webkit-text-fill-color: #fcf6f5;
   font-size: 6.5vh;
