@@ -11,8 +11,9 @@ body {
   padding-top: 71px;
 }
 /* rootdiv */
-div.rootDiv {
+#rootDiv {
   display: flex;
+  flex-direction: column;
 }
 /* header */
 
@@ -27,6 +28,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .header_div {
@@ -105,4 +107,7 @@ header {
 section.body {
   box-sizing: border-box;
 }
+
 /* footer */
+footer {
+}

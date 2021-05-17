@@ -15,6 +15,10 @@ const IntroBG = () => {
           <p className="iiw-f3">Web developer</p>
         </div>
       </div>
+
+      <div className="Myinfo">
+        <span> 자기소개 </span>
+      </div>
     </section>
   )
 }
