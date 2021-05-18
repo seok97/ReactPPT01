@@ -16,8 +16,10 @@ const IntroBG = () => {
         </div>
       </div>
 
-      <div className="Myinfo">
-        <span> 자기소개 </span>
+      <div className="MyInfoBox">
+        <div className="mib-InnerWrapper">
+          <div className="mib-iw-Content"></div>
+        </div>
       </div>
     </section>
   )
