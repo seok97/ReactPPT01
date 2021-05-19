@@ -13,7 +13,7 @@ const IntroBG = () => {
             <label>seok</label> <label>w</label>oo<label>h</label>yeon
           </p>
           <p className="iiw-f3">
-            <label>Front end</label>, Back end
+            <label>Front-end</label>, Back-end
           </p>
         </div>
       </div>

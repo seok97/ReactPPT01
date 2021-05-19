@@ -1,8 +1,7 @@
 .MainIntro-wrapper {
   width: 100%;
   height: 50vh;
-  background-color: #000000;
-
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,23 +42,23 @@
   text-align: left;
   padding-left: 30vw;
   font-weight: bold;
-  color: #1565c0;
+  color: #615b75;
 }
 
 .iiw-f2 {
   font-size: 6vh;
   font-weight: bold;
-  -webkit-text-fill-color: #000000;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #fd8f4c;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fd8f4c;
   animation-delay: 0s;
   animation-name: introtext;
   animation-duration: 3s;
 }
 
 .iiw-f2 label {
-  -webkit-text-fill-color: #ffffff;
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #fd8f4c;
+  -webkit-text-stroke-color: #fd8f4c;
   font-size: 6.5vh;
 }
 .iiw-f3 {
@@ -67,10 +66,10 @@
   text-align: right;
   padding-right: 20vw;
   font-weight: bold;
-  color: #ff5252;
+  color: #615b75;
 }
 .iiw-f3 label {
-  color: #ffe57f;
+  color: #facc08;
 }
 
 .MyInfoBox {
