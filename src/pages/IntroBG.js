@@ -8,19 +8,24 @@ const IntroBG = () => {
     <section className="MainIntro-Section">
       <div className="MainIntro-wrapper">
         <div className="intro-inner-wrapper">
-          <p className="iiw-f1">Hi I'm</p>
+          <p className="iiw-f1">Hi, I'm</p>
           <p className="iiw-f2">
-            <label>seok</label> <label>w</label>oo<label>h</label>yeon
+            <label>Seok</label> Woohyeon,
           </p>
           <p className="iiw-f3">
-            <label>Front-end</label>, Back-end
+            <label>web</label> developer.
           </p>
         </div>
       </div>
 
       <div className="MyInfoBox">
         <div className="mib-InnerWrapper">
-          <div className="mib-iw-Content"></div>
+          <div className="mib-iw-Content">
+            <div className="mib-iw-con">
+              <span>About me</span>
+              <div className="mib-iw-con-aboutme"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

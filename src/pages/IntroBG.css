@@ -19,10 +19,8 @@
 }
 
 .iiw-f1,
-.iiw-f2,
-.iiw-f3 {
+.iiw-f2 {
   margin: 0;
-  text-transform: uppercase;
 }
 
 .iiw-f1,
@@ -44,7 +42,7 @@
 .iiw-f1 {
   font-size: 2vh;
   text-align: left;
-  padding-left: 30vw;
+  padding-left: 35vw;
   font-weight: bold;
   color: #615b75;
 }
@@ -52,9 +50,9 @@
 .iiw-f2 {
   font-size: 6vh;
   font-weight: bold;
-  -webkit-text-fill-color: #fd8f4c;
+  -webkit-text-fill-color: #615b75;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #fd8f4c;
+  -webkit-text-stroke-color: #615b75;
   animation-delay: 0s;
   animation-name: introtext;
   animation-duration: 3s;
@@ -66,9 +64,9 @@
   font-size: 6.5vh;
 }
 .iiw-f3 {
-  font-size: 3.5vh;
+  font-size: 3.3vh;
   text-align: right;
-  padding-right: 20vw;
+  padding-right: 30vw;
   font-weight: bold;
   color: #615b75;
 }
@@ -80,8 +78,29 @@
   box-sizing: border-box;
   background-color: white;
   width: 100%;
-  height: 750px;
+
   position: relative;
   z-index: 1;
   margin-top: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.mib-InnerWrapper {
+  width: 1440px;
+  box-sizing: border-box;
+  border: solid 2px black;
+  height: 800px;
+}
+
+.mib-iw-Content {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 300px;
+  border: solid 3px orange;
+  display: flex;
+}
+
+.mib-iw-con {
+  text-align: left;
 }
