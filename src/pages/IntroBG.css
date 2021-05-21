@@ -1,3 +1,6 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,700&display=swap");
+
 .MainIntro-Section {
   display: flex;
   justify-content: center;
@@ -87,20 +90,67 @@
 }
 
 .mib-InnerWrapper {
+  padding-top: 50px;
   width: 1440px;
   box-sizing: border-box;
-  border: solid 2px black;
-  height: 800px;
+  height: 50vh;
 }
 
 .mib-iw-Content {
   box-sizing: border-box;
-  height: 100%;
   padding: 0 300px;
-  border: solid 3px orange;
   display: flex;
+  justify-content: space-around;
 }
 
-.mib-iw-con {
+.mib-iw-con-about {
   text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "KoHo", sans-serif;
+  color: #615b75;
+}
+
+.mib-iw-con-introduce {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.int-fonts {
+  color: #615b75;
+  font-size: 20px;
+  font-family: "KoHo", sans-serif;
+}
+
+.mib-iw-con-skils {
+  height: 25vh;
+  padding: 0 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.mib-iw-con-s {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.mib-iw-con-s-w {
+}
+
+.s-chart-f {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.chart {
+  height: 2px;
+  background-color: #fd8f4c;
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+}
+.chart-b {
+  width: 70%;
+  background-color: #facc08;
 }
