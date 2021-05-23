@@ -8,6 +8,7 @@ body {
 /* ancher */
 .ac-deco {
   text-decoration: none;
+  color: #aaaa;
 }
 
 .ac-deco:link {

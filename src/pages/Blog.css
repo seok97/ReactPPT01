@@ -1,0 +1,14 @@
+.Blog {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-wrapper {
+  height: 100%;
+  width: 1440px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -6,7 +6,7 @@ import "./Main.css"
 
 // pages
 import IntroBG from "./pages/IntroBG"
-import Skils from "./pages/Skils"
+import Blog from "./pages/Blog"
 import Projects from "./pages/Projects"
 
 // components
@@ -34,8 +34,8 @@ class Main extends Component {
                     </Link>
                   </li>
                   <li className="header_ul_li">
-                    <Link to="/Skils" className="ac-deco">
-                      Skils
+                    <Link to="/Blog" className="ac-deco">
+                      Blog
                     </Link>
                   </li>
                   <li className="header_ul_li">
@@ -51,7 +51,7 @@ class Main extends Component {
           <section className="body">
             <Switch>
               <Route exact path="/" component={IntroBG} />
-              <Route exact path="/Skils" component={Skils} />
+              <Route exact path="/Blog" component={Blog} />
               <Route exact path="/Projects" component={Projects} />
             </Switch>
           </section>
