@@ -100,7 +100,7 @@
   box-sizing: border-box;
   padding: 0 300px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .mib-iw-con-about {
