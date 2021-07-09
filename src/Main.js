@@ -14,6 +14,9 @@ import Projects from "./pages/Projects"
 // images
 import rogoimg from "./images/swh_rogo.png"
 
+// bootstrap document
+import { Container } from "react-bootstrap"
+
 class Main extends Component {
   render() {
     return (
@@ -59,7 +62,7 @@ class Main extends Component {
             <div className="Footer-wrapper">
               <div className="f-w-contact">
                 <div className="f-w-c-span">
-                  <span>@: slgo1237@gmail.com</span>
+                  <span>slgo1237@gmail.com</span>
                 </div>
                 <div className="f-w-c-span">
                   <span>
