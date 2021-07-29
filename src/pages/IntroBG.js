@@ -27,12 +27,11 @@ const IntroBG = () => {
             <div className="mib-iw-con-introduce">
               <p>
                 웹 개발자 석우현 입니다.
-                <br /> 혼자 웹 페이지 개발/배포 까지 할 수 있고
                 <br />
                 프론트엔드와 백엔드에 대해 잘 이해하고 있습니다.
                 <br />
                 주로 프론트엔드 개발을 하고 있습니다. <br />
-                특히 Spring , ReactJS 프레임워크에 익숙 합니다.
+                특히 Spring , Node 에 익숙 합니다.
               </p>
             </div>
           </div>

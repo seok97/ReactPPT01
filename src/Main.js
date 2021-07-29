@@ -14,9 +14,6 @@ import Projects from "./pages/Projects"
 // images
 import rogoimg from "./images/swh_rogo.png"
 
-// bootstrap document
-import { Container } from "react-bootstrap"
-
 class Main extends Component {
   render() {
     return (
@@ -26,23 +23,23 @@ class Main extends Component {
             <div className="header_div">
               <div className="navbar">
                 <div className="nav_rogoimg">
-                  <Link to="/" className="ac-deco">
+                  <Link to="ReactPPT01/" className="ac-deco">
                     <img src={rogoimg} alt="rogo_swh" />
                   </Link>
                 </div>
                 <ul className="header_ul">
                   <li className="header_ul_li">
-                    <Link to="/" className="ac-deco">
+                    <Link to="ReactPPT01/" className="ac-deco">
                       Main
                     </Link>
                   </li>
                   <li className="header_ul_li">
-                    <Link to="/Blog" className="ac-deco">
+                    <Link to="ReactPPT01/Blog" className="ac-deco">
                       Blog
                     </Link>
                   </li>
                   <li className="header_ul_li">
-                    <Link to="/Projects" className="ac-deco">
+                    <Link to="ReactPPT01/Projects" className="ac-deco">
                       Projects
                     </Link>
                   </li>
