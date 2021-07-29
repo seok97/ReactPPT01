@@ -23,23 +23,23 @@ class Main extends Component {
             <div className="header_div">
               <div className="navbar">
                 <div className="nav_rogoimg">
-                  <Link to="ReactPPT01/" className="ac-deco">
+                  <Link to="/" className="ac-deco">
                     <img src={rogoimg} alt="rogo_swh" />
                   </Link>
                 </div>
                 <ul className="header_ul">
                   <li className="header_ul_li">
-                    <Link to="ReactPPT01/" className="ac-deco">
+                    <Link to="/" className="ac-deco">
                       Main
                     </Link>
                   </li>
                   <li className="header_ul_li">
-                    <Link to="ReactPPT01/Blog" className="ac-deco">
+                    <Link to="/Blog" className="ac-deco">
                       Blog
                     </Link>
                   </li>
                   <li className="header_ul_li">
-                    <Link to="ReactPPT01/Projects" className="ac-deco">
+                    <Link to="/Projects" className="ac-deco">
                       Projects
                     </Link>
                   </li>
