@@ -53,7 +53,7 @@ class Main extends Component {
 
           <section className="body">
             <Switch>
-              <Route exact path="/" component={IntroBG} />
+              <Route exact={true} path="/" component={IntroBG} />
               <Route exact path="/Blog" component={Blog} />
               <Route exact path="/Projects" component={Projects} />
             </Switch>
