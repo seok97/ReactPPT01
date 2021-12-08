@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactPPT01/static/css/main.abd67954.chunk.css",
+    "main.js": "/ReactPPT01/static/js/main.8753d698.chunk.js",
+    "main.js.map": "/ReactPPT01/static/js/main.8753d698.chunk.js.map",
+    "runtime-main.js": "/ReactPPT01/static/js/runtime-main.011cc137.js",
+    "runtime-main.js.map": "/ReactPPT01/static/js/runtime-main.011cc137.js.map",
+    "static/css/2.d45d6843.chunk.css": "/ReactPPT01/static/css/2.d45d6843.chunk.css",
+    "static/js/2.dc0d12cc.chunk.js": "/ReactPPT01/static/js/2.dc0d12cc.chunk.js",
+    "static/js/2.dc0d12cc.chunk.js.map": "/ReactPPT01/static/js/2.dc0d12cc.chunk.js.map",
+    "index.html": "/ReactPPT01/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/ReactPPT01/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.abd67954.chunk.css.map": "/ReactPPT01/static/css/main.abd67954.chunk.css.map",
+    "static/js/2.dc0d12cc.chunk.js.LICENSE.txt": "/ReactPPT01/static/js/2.dc0d12cc.chunk.js.LICENSE.txt",
+    "static/media/Home_cafe_01.8a354bc2.jpg": "/ReactPPT01/static/media/Home_cafe_01.8a354bc2.jpg",
+    "static/media/swh_rogo.3567c195.png": "/ReactPPT01/static/media/swh_rogo.3567c195.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.011cc137.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.dc0d12cc.chunk.js",
+    "static/css/main.abd67954.chunk.css",
+    "static/js/main.8753d698.chunk.js"
+  ]
+}
