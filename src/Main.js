@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
+import { Link, Route, Switch, HashRouter as Router } from "react-router-dom"
 
 // css
 import "./Main.css"
