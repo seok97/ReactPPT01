@@ -81,7 +81,6 @@
   box-sizing: border-box;
   background-color: white;
   width: 100%;
-
   position: relative;
   z-index: 1;
   margin-top: 50vh;
@@ -98,7 +97,6 @@
 
 .mib-iw-Content {
   box-sizing: border-box;
-  padding: 0 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -125,7 +123,6 @@
 
 .mib-iw-con-skils {
   height: 25vh;
-  padding: 0 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;

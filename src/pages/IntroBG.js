@@ -19,27 +19,22 @@ const IntroBG = () => {
       </div>
 
       <div className="MyInfoBox">
-        <div className="mib-InnerWrapper">
-          <div className="mib-iw-Content int-fonts">
-            <div className="mib-iw-con-about">
+        <div className="mib-InnerWrapper container d-flex flex-column justify-content-center align-content-center">
+          <div className="mib-iw-Content int-fonts d-flex flex-column justify-content-center">
+            <div className="mib-iw-con-about m-2">
               <span>About me</span>
             </div>
-            <div className="mib-iw-con-introduce">
-              <p>
-                웹 개발자 석우현 입니다.
-                <br />
-                프론트엔드와 백엔드에 대해 잘 이해하고 있습니다.
-                <br />
-                주로 프론트엔드 개발을 하고 있습니다. <br />
-                특히 Spring , Node 에 익숙 합니다.
-              </p>
+            <div className="mib-iw-con-introduce m-2">
+              <p>Java 를 주로 다루고, JavaScript 를 좋아합니다.</p>
+              <br />
+              <span></span>
             </div>
           </div>
-          <div className="mib-iw-con-skils int-fonts">
+          <div className="mib-iw-con-skils int-fonts container">
             <div className="mib-iw-con-s">
               <span>Skils</span>
             </div>
-            <div className="mib-iw-con-s-w">
+            <div className="mib-iw-con-s-w container m-4">
               <div className="s-chart-f">
                 <span>Front-end</span>
                 <footer>
